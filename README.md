@@ -1,4 +1,4 @@
-# TEST BACKEND NODEJS DEVELOPER - Trần Nhật Sang
+# TEST BACKEND NODEJS DEVELOPER - Trần Nhật Sang - UnitySport
 
 ## Đề bài test
 ### 1. Thuật toán kiểm tra chuỗi đối xứng.
@@ -61,15 +61,18 @@ Ví Dụ
         Giải Thích: Cả hai cặp [2, 4] (tại chỉ số [1, 2]) và [3, 3] (tại chỉ số [0, 3]) đều có tổng bằng 6.
 
 ### 3. Compress file data.json để đạt được file size là nhỏ nhất có thể
-
+Điều kiện câu số 3:  Không sử dụng bất kỳ thư viện nào
 
 ## Quy định
 
-Nội dung bài test : File đính kèm bên trên
-Hình thức nộp bài: Gửi lại link github hoặc gitlab 
-Thời gian nộp bài: Trước 18h00 ngày 17/12/2024
-Điều kiện câu số 3:  Không sử dụng bất kỳ thư viện nào
-Có thể thêm một video giải thích, thuyết minh bài làm sẽ là một điểm cộng
++ Nội dung bài test : File đính kèm bên trên
++ Hình thức nộp bài: Gửi lại link github hoặc gitlab 
++ Thời gian nộp bài: Trước 18h00 ngày 17/12/2024
++ Điều kiện câu số 3:  Không sử dụng bất kỳ thư viện nào
++ Có thể thêm một video giải thích, thuyết minh bài làm sẽ là một điểm cộng
+
+## Video giải thích các làm
+[![Tran Nhat Sang](https://img.youtube.com/vi/Zzeme36W-0Y/0.jpg)](https://youtu.be/Zzeme36W-0Y)
 
 ## Tác giả
 Trần Nhật Sang

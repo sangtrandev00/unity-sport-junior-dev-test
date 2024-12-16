@@ -11,7 +11,6 @@ const __dirname = dirname(__filename);
 const dataPath = `${__dirname}/data.json`;
 
 const data = fs.readFileSync(dataPath, 'utf-8');
-console.log("data", data);
 const minifiedData = JSON.stringify(JSON.parse(data)); // Loại bỏ khoảng trắng
 fs.writeFileSync('data.min.json', minifiedData);
 

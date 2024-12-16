@@ -1,12 +1,11 @@
 import fs from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname } from 'path';
-import { exec } from 'child_process';
+import { exec } from 'child_process'; // Module thực thi các lệnh từ shell
 
 // Get the directory name of the current module
-console.log("import.meta", import.meta.url);
 const __filename = fileURLToPath(import.meta.url);
-console.log("filenam", __filename);
+console.log("filename", __filename);
 const __dirname = dirname(__filename);
 console.log("dirname", __dirname);
 
@@ -14,7 +13,6 @@ console.log("dirname", __dirname);
 const dataPath = `${__dirname}/data.json`;
 
 const data = fs.readFileSync(dataPath, 'utf-8');
-// console.log("data", data);
 const minifiedData = JSON.stringify(JSON.parse(data)); // Loại bỏ khoảng trắng
 fs.writeFileSync('data.min.json', minifiedData);
 

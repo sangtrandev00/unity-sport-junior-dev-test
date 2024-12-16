@@ -7,10 +7,11 @@ export function isPalindrome(s: string): boolean {
             return false
         }
     }
-    return true
+    return true // Time complexity O(n/2), Space O(n)
 };
 
+// const s2 = s.split('').reverse().join('')
 console.log(isPalindrome("radar")) // true
 console.log(isPalindrome("level")) // true
 console.log(isPalindrome("hello")) // false
-console.log(isPalindrome("A man, a plan, a canal: Panama")) // true 
+console.log(isPalindrome("A man, a plan, a canal: Panama")) // true amanaplanacanalpanama
