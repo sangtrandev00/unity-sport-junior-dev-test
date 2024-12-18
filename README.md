@@ -71,7 +71,7 @@ Ví Dụ
 + Điều kiện câu số 3:  Không sử dụng bất kỳ thư viện nào
 + Có thể thêm một video giải thích, thuyết minh bài làm sẽ là một điểm cộng
 
-## Video giải thích các làm
+## Video giải thích cách làm
 [![Tran Nhat Sang](https://img.youtube.com/vi/Zzeme36W-0Y/0.jpg)](https://youtu.be/Zzeme36W-0Y)
 
 ## Tác giả
